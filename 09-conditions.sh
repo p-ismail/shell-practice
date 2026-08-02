@@ -8,7 +8,7 @@ NUMBER=$1
 # -ne -- not equal
 
 
-if [ $NUMBER -gt 20]; then
+if [ $NUMBER -gt 20 ]; then
 
 echo "Given Number: $NUMBER is greater than 20"
 
