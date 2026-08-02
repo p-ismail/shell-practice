@@ -8,7 +8,7 @@ echo "sum is $(($NUM1+$NUM2))"
 
 #Array
 
-FRUITS=("mango","apple","banana")
+FRUITS=("mango" "apple" "banana")
 
 echo "Fruits are: ${FRUITS[@]}"
 echo "first fruit is: ${FRUITS[0]}"
