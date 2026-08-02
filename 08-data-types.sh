@@ -10,4 +10,4 @@ echo "sum is $(($NUM1+$NUM2))"
 
 FRUITS=("mango","apple","banana")
 
-echo "Fruits are: ${FRUTIS [@]}"
+echo "Fruits are: ${FRUITS [@]}"
