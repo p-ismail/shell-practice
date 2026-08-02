@@ -11,3 +11,9 @@ echo "sum is $(($NUM1+$NUM2))"
 FRUITS=("mango","apple","banana")
 
 echo "Fruits are: ${FRUITS[@]}"
+
+#index
+
+echo "first fruit is: ${FRUITS[0]}"
+echo "second fruit is: ${FRUITS[1]}"
+echo "Third fruit is: ${FRUITS[2]}"
