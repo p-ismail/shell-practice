@@ -28,3 +28,4 @@ do
         dnf install $package -y &>>$LOGS_FILE
         VALIDATE $? "$package installation" 
     fi
+done
